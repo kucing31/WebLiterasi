@@ -1,0 +1,71 @@
+#navbar-list{
+    display: inline-block;
+}
+#home-body {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 2em;
+}
+#home-body p{
+    font-size: 23px;
+}
+
+.carousel-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: black;
+    color: #2242A1;
+    font-size: 39px;
+
+}
+
+.carousel-control-prev{
+    width: 15px;
+}
+
+#isi-beranda{
+    margin-right: 650px;
+}
+
+.button-beranda{
+    color : white;
+    width: 130px;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 1em;
+}
+
+#home-body-2{
+     position: absolute;
+     bottom: 0;
+     padding: 2em;
+     text-align: left;
+}
+
+.angka{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.jenis{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.navbar-collapse{
+    flex-grow : 0; 
+}
+
+.home-body-2 {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.home-body-2 > div {
+    text-align: center;
+    padding: 1em;
+}
+
